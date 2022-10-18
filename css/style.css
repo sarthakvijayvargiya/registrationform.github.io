@@ -1,0 +1,105 @@
+body {
+    background:rgb(54, 0, 103);
+    font-family: 'Poppins', sans-serif;
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color:black;
+    text-align: center;
+}
+
+
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(54, 0, 103);
+    border: none;
+    border-radius: 4px;
+}
+
+#form button:hover{
+    background:  lightblue;
+    color: rgb(54, 0, 103);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#formOne {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#formOne h1 {
+    color:black;
+    text-align: center;
+}
+
+
+
+#formOne button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(54, 0, 103);
+    border: none;
+    border-radius: 4px;
+}
+
+#formOne button:hover{
+    background:  lightblue;
+    color: rgb(54, 0, 103);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid white;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 90%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: green;
+}
+
+.input-control.error input {
+    border-color: red;
+}
+
+.input-control .error {
+    color: red;
+    font-size: 9px;
+    height: 13px;
+}
